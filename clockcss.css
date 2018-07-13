@@ -1,0 +1,24 @@
+h1 {
+    font-family: courier;
+    font-size: 300%;
+    text-align: center;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+canvas {
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#setTime {
+    text-align: center;
+    padding-top: 30px;
+}
