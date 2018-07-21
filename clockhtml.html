@@ -8,10 +8,10 @@
 <body>
     <h1>Analog Clock</h1>
     <canvas id="drawingCanvas" height="500" width="500"></canvas>
-    <form id="setTime">
+    <form id="setTime" name="customTime">
         Set time:
-        <input type="time" id="nTime" name="customTime">
-        <input type="button" value="Set" id="btn" onclick="settingTime();">
+        <input type="time" id="nTime">
+        <input type="button" value="Set" id="btn" onclick="setTime();">
     </form>
 
     <script src="clockjs.js"></script>
